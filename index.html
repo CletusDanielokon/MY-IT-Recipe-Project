@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Simple Recipe Webpage">
+  <meta property="og:title" content="Simple Recipe">
+  <meta property="og:url" content="----------">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  <link rel="stylesheet" href="style.css">
+  <title>simple recipe</title> 
+</head>
+<body>
+
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <div>
+            <a href="index.html" class="nav-logo">
+              <img src="./images/logo2.svg" alt="Simple Recipe logo">
+            </a>
+          </div>
+          <div>
+            <button type="button" class="btn nav-btn">&#9776</button>
+          </div>
+        </div>  
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">Home </a>
+          <a href="about.html" class="nav-link"> About Us </a>
+          <a href="recipes.html" class="nav-link"> Recipes</a>
+          <a href="tag-emplate.html" class="nav-link"> Tags</a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn1">Contact Us </a>
+          </div>
+        </div> 
+      </div>
+    </nav>
+    <main class="page"> 
+      <header class="hero">
+        <div class="hero-container">
+          <div class="hero-text">
+            <h1>Simple Recipe</h1>
+            <h2>no stuff, just recipes</h2>
+          </div>
+        </div>
+      </header>
+      <section class="recipes-container">
+        
+        <div class="tags-container">
+            <h4>Recipes</h4>
+            <div class="tags-list">
+              <a href="tag-template.html">Beef (1)</a>
+              <a href="tag-template.html">Breakfast (2)</a>
+              <a href="tag-template.html">Carrots (3)</a>
+              <a href="tag-template.html">Food(4)</a>
+            </div>
+        </div>
+        <div class="recipes-list">
+
+          <figure>
+            <a href="vegetable-soup.html" class="recipe">
+              <img src="./images/ugu.jfif" alt="Nigerian Vegetable Soup" class="img recipe-img"/>
+              <figcaption class="fig">
+                <h5>Vegetable Soup (Edikang Ikong/Efo Riro)</h5>
+                <p> prep: 20 mins | cook: 25 mins</p>
+              </figcaption>
+            </a>
+          </figure>
+
+
+          <!-- single recipe -->
+          <a href="greek-ribs.html" class="recipe">
+            <img
+              src="./images/recipe-2.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Greek Lemon Garlic Ribs</h5>
+            <p>Prep : 30min | Cook : 15min</p>
+          </a>
+          <!-- end of single recipe -->
+      
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./images/recipe-4.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Banana Pancakes</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+
+          <figure>
+            <a href="egusi-soup.html" class="recipe">
+              <img src="./images/egusi soup.jfif" alt="Egusi Soup" class="img recipe-img"/>
+              <figcaption class="fig">
+                <h5>Authentic Egusi Soup</h5>
+                <p> prep: 20 mins | cook: 35 mins</p>
+              </figcaption>
+            </a>
+          </figure>
+
+          <figure>
+            <a href="jollof-rice.html" class="recipe">
+              <img src="./images/jollof Rice.jfif" alt="Nigerian Jollof Rice" class="img recipe-img"/>
+              <figcaption class="fig">
+                <h5>Smoky Jollof Rice</h5>
+                <p> prep: 15 mins | cook: 45 mins</p>
+              </figcaption>
+            </a>
+          </figure>
+
+          <figure>
+            <a href="parfait.html" class="recipe">
+              <img src="./images/pafait.jfif" alt="Fruit Parfait" class="img recipe-img"/>
+              <figcaption class="fig">
+                <h5>Healthy Fruit Parfait</h5>
+                <p> prep: 10 mins | cook: 0 mins</p>
+              </figcaption>
+            </a>
+          </figure>
+
+          <figure>
+            <a href="fried-rice.html" class="recipe">
+              <img src="./images/fried Rice.jfif" alt="Nigerian Fried Rice" class="img recipe-img"/>
+              <figcaption class="fig">
+                <h5>Nigerian Fried Rice</h5>
+                <p> prep: 25 mins | cook: 20 mins</p>
+              </figcaption>
+            </a>
+          </figure>
+
+          <figure>
+            <a href="yam-egg-sauce.html" class="recipe">
+              <img src="./images/yam.jfif" alt="Boiled Yam and Egg sauce" class="img recipe-img"/>
+              <figcaption class="fig">
+                <h5>Boiled Yam & Egg Sauce</h5>
+                <p> prep: 15 mins | cook: 20 mins</p>
+              </figcaption>
+            </a>
+          </figure>
+
+          <figure>
+            <a href="carne-asada.html" class="recipe">
+              <img src="./images/recipe-1.jpeg" alt="Carne Asada Steak" class="img recipe-img"/>
+              <figcaption class="fig">
+                <h5>Mexican Carne Asada</h5>
+                <p> prep: 2 hrs | cook: 10 mins</p>
+              </figcaption>
+            </a>
+          </figure>
+
+        </div>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+      <p>&copy; <span id="date"></span>
+        <span class="footer-logo">Simple Recipes </span>
+        Built by <a href="mailto:deccletus@gmail.com">Cletus</a>
+      </p>
+    </footer>  
+    <script src="./app.js"></script>
+</body>
+</html>
